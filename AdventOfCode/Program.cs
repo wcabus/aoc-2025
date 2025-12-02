@@ -1,5 +1,14 @@
-﻿using AdventOfCode;
+﻿using System.Diagnostics;
+using AdventOfCode;
 
 var testInput = "";
-var day = new Day1(testInput);
+var input = "";
+
+var sw = new Stopwatch();
+sw.Start();
+
+var day = new Day2(input);
 day.Task2();
+
+sw.Stop();
+Console.WriteLine($"Completed this task in {sw.ElapsedMilliseconds} ms");
