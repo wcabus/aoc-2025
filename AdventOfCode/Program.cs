@@ -1,13 +1,14 @@
 ﻿using System.Diagnostics;
 using AdventOfCode;
 
-var testInput = "";
-var input = "";
+var testInput = @"";
+
+var input = @"";
 
 var sw = new Stopwatch();
 sw.Start();
 
-var day = new Day2(input);
+var day = new Day3(input);
 day.Task2();
 
 sw.Stop();
