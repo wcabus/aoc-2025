@@ -8,7 +8,7 @@ var input = @"";
 var sw = new Stopwatch();
 sw.Start();
 
-var day = new Day10(input);
+var day = new Day11(input);
 day.Task2();
 
 sw.Stop();
